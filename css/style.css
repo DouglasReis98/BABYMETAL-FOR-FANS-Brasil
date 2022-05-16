@@ -352,9 +352,14 @@ visibility: visible;
 overflow-x: auto;
 }
 
-.noticia{
+#content{
+    max-width: 100%;
+
+}
+
+.noticia {
     min-width: auto;
-    min-height: auto;
+    height: 160px;
 }
 
 .noticia h4{
@@ -363,5 +368,22 @@ overflow-x: auto;
 
 }
 @media (max-width: 500px){
+    .noticia figure {
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .noticia figure img {
+        width: 90%;
+}
 
+.noticia {
+    min-width: auto;
+    height: 120px;
+}
+
+.slide-destaques{
+    display: none;
+}
+    
 }
