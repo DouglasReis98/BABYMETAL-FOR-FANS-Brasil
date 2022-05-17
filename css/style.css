@@ -5,6 +5,16 @@
 
 }
 
+a{
+    text-decoration: underline;
+    color: currentColor;
+}
+
+a:visited{
+    color: currentColor;
+}
+
+
 body{
     background-image: url("../img/fundo.png");
     background-repeat: no-repeat;
