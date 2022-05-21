@@ -101,7 +101,7 @@ main{
 
 #texto img{
     width: 50%;
-
+    padding: 20px;
 }
 
 #texto h1{
@@ -116,13 +116,17 @@ font-size: 1.5em;
 #texto p{
     margin: 10px;
     text-align: justify;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 #texto ul{
     text-align: left;
+    padding: 20px;
+    font-size: .9em;
+}
+
+#texto li{
     padding: 5px;
-    font-size: .8em;
 }
 
 aside{
