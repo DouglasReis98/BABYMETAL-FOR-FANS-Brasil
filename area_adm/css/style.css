@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:visited{
+    color: currentColor;
+}
+
+body{
+    background-image: url("../../img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+header{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#banner{
+    margin: 20px auto;
+}
+
+#banner img{
+    width: 85%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
+}
+
+#formulario{
+    margin: 10px auto;
+    width: fit-content;
+    background-color: black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#formulario input{
+    width: 350px;
+    height: 30px
+}
+
+#formulario button{
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    border-radius: 10px;
+    background-color: gold;
+    color: black;
+    font-size: 1.5em;
+}
