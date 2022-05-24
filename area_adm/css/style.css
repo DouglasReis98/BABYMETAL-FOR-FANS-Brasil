@@ -63,3 +63,66 @@ h1{
     color: black;
     font-size: 1.5em;
 }
+
+table{
+    width: 60%;
+}
+
+
+table, th, tr{
+    border: 1px solid white;
+    color: gold;
+    margin: 10px auto;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+
+table td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-shadow: 1px 1px black;
+}
+
+#formulario-criar{
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#formulario-criar input{
+    width: 70%;
+    font-size: 1em;
+}
+
+#formulario-criar textarea{
+    width: 70%;
+    height: 300px;
+}
+
+#formulario-criar button{
+    width: 40%;
+    background-color: gold;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#formulario-criar select{
+    width: 100px;
+    text-align: center;
+}
