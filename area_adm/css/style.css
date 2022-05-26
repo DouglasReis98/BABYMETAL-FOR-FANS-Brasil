@@ -39,6 +39,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     text-shadow: 1px 1px 3px black;
+    font-size: 2rem;
 }
 
 #formulario{
@@ -119,7 +120,7 @@ table td{
     background-color: gold;
     border-radius: 10px;
     height: 50px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-transform: uppercase;
 }
 
